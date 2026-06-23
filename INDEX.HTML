@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional - Luis Adán Morgan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <script src="../script/scriptbio.js"></script>
+</head>
+<body>
+
+    <!-- Alerta de bienvenida estilo Heladería -->
+    <div id="welcomeAlert" class="welcome-alert">
+        <div class="alert-header">
+            <div class="alert-title">¡Qué gusto verte! 🍧</div>
+            <div class="alert-close" onclick="closeAlert()">&times;</div>
+        </div>
+        <div class="alert-body">
+            Te doy la bienvenida a mi portafolio. Descubre la visión tecnológica detrás de este concepto refrescante.
+        </div>
+        <button class="alert-btn" onclick="closeAlert()">Conocer más</button>
+        <div style="clear: both;"></div>
+    </div>
+
+    <!-- Barra de Navegación Protegida -->
+    <nav class="bio-navbar">
+        <div class="bio-nav-container">
+            <h1 class="bio-logo"><i class="fas fa-ice-cream"></i> Gelato & Co.</h1>
+            <ul class="bio-nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Biografía</a></li>
+            </ul>
+            <div class="bio-menu-toggle" id="bio-mobile-menu">
+                <span class="bio-bar"></span>
+                <span class="bio-bar"></span>
+                <span class="bio-bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <div class="bio-container">
+        <h1 class="bio-page-title">Perfil del Desarrollador</h1>
+
+        <div class="bio-main-layout">
+            
+            <!-- Columna Izquierda: Tarjeta de Perfil -->
+            <div class="bio-sidebar-col">
+                <div class="bio-profile-card">
+                    <div class="bio-profile-img-container">
+                        <img src="Imagenes/Gemini_Generated_Image_225kxu225kxu225k.png" alt="">
+                    <h2 class="bio-profile-name">Luis Adán Morgan</h2>
+                    <p class="bio-profile-title">Ingeniería en Sistemas uX/UI & Entusiasta Digital</p>
+                    <p class="bio-profile-email">Email: luismorgan@estudiante.com</p>
+                    
+                    <div class="bio-social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna Derecha: Información y Pasiones -->
+            <div class="bio-content-col">
+                
+                <div class="bio-info-section">
+                    <div class="bio-section-header">
+                        <i class="fas fa-fingerprint"></i> Un poco sobre mí
+                    </div>
+                    <p class="bio-section-text">
+                        Me encuentro cursando la carrera de Ingeniería en Sistemas. Me defino como un apasionado de la tecnología, analítico y sumamente enfocado en los pequeños detalles que marcan la diferencia. Me entusiasma explorar el potencial del hardware y el diseño de software interactivo. Siempre busco asumir roles activos que me permitan liderar y aplicar soluciones creativas, transformando ideas abstractas en proyectos tangibles y atractivos.
+                    </p>
+                </div>
+
+                <div class="bio-info-section">
+                    <div class="bio-section-header">
+                        <i class="fas fa-heart"></i> Actividades y Pasatiempos
+                    </div>
+                    <ul class="bio-hobbies-list">
+                        <li><i class="fas fa-book-reader"></i> Lectura de innovación</li>
+                        <li><i class="fas fa-headset"></i> Videojuegos de estrategia</li>
+                        <li><i class="fas fa-mortar-pestle"></i> Experimentación culinaria</li>
+                        <li><i class="fas fa-sparkles"></i> Organización de entornos</li>
+                        <li><i class="fas fa-hammer"></i> Optimización de equipos</li>
+                        <li><i class="fas fa-laptop-code"></i> Arquitectura de software</li>
+                    </ul>
+                </div>
+
+                <div class="bio-highlight-box">
+                    <div class="bio-section-header">
+                        <i class="fas fa-compass"></i> Objetivos en Desarrollo Web I
+                    </div>
+                    <p class="bio-section-text">
+                        Mi principal propósito en esta asignatura es dominar las metodologías profesionales de despliegue y producción en la web. Busco perfeccionar mis habilidades de diseño visual para crear interfaces vanguardistas, fluidas y visualmente tan agradables como la carta de una heladería de alta gama. Adicionalmente, priorizo aprender a estructurar proyectos de forma limpia, ordenada y escalable para el futuro.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Pie de Página Temático -->
+    <footer class="bio-footer">
+        <div class="bio-footer-columns">
+            <div class="bio-footer-col">
+                <h3>Gelato & Co.</h3>
+                <p>Espacio interactivo desarrollado para la asignatura de Desarrollo Web I. Uniendo la lógica de sistemas con la identidad dulce de una marca artesanal.</p>
+            </div>
+            <div class="bio-footer-col">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Biografía</a></li>
+                </ul>
+            </div>
+            <div class="bio-footer-col">
+                <h3>Contacto</h3>
+                <div class="bio-footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bio-footer-bottom">
+            <div class="bio-footer-copy">
+                &copy; Gelato & Co. - Diseñado por Luis Adán Morgan. Todos los derechos reservados.
+            </div>
+            <div class="bio-footer-time" id="liveClock">
+                Cargando reloj...
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
